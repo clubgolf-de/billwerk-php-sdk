@@ -1,0 +1,40 @@
+{
+  "name": "clubgolf-de/billwerk-php-sdk",
+  "description": "This Billwerk PHP SDK is NOT made by Billwerk GmbH.",
+  "keywords": ["billwerk", "php", "sdk"],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/clubgolf-de/billwerk-php-sdk/issues",
+    "source": "https://github.com/clubgolf-de/billwerk-php-sdk/forge-sdk"
+  },
+  "authors": [
+    {
+      "name": "André Schwarzer",
+      "email": "as@clubgolf.de"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.3.1",
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Clubgolf\\Billwerk\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
